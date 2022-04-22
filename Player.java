@@ -85,7 +85,7 @@ class Player{
         }
         catch(Exception e)
     {
-        System.out.println("You put in the wrong input nigga.");
+        System.out.println("You put in the wrong input.");
     }
         playerChoice = 1000;
         return playerChoice;
