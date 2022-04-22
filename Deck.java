@@ -1,6 +1,5 @@
 /** Deck.java
 *   Author: Chimaobi Onwuka
-*   UNI: ceo2134
 *   
 *   Models a typical deck of playing cards
 *   To be used with Card class
