@@ -1,8 +1,5 @@
 readMe.txt for Programming Project 4
 Author: Chimaobi Onwuka
-UNI: ceo2134
-
-Co-Conspirators: Obiora Okeke
 
 Welcome to my Read-Me, and inside look on what makes my Programming Project Mine.
 
@@ -69,7 +66,7 @@ So the checks which are virtually identical, and are sprinkled around all over t
 once the 52 card has been delt, and in this case the checks see which deck (the computer or the player) had the least card and then it activates the associated gameOver sequence. 
 theGameOver sequence prints the winner depending on who won and then asks the player if they want to play again. It then sets this input to the variable playAgain and runs the associated method playAgain()
 
-//playAgaiin()
+//playAgain()
 The playAagain() method is simply is just a simple if else statement that checks if the player chose to play again (1) or not (2). In the case that it does the go variable
 which is returned by play() is set to true which allows keepPlaying() in the CrazyEights.java to play again and sets cont = true which allows the sequence in play() to keep on cycling between 
 player and computer turns.
@@ -80,5 +77,5 @@ and subsequently an end to the game.
 Finally there is the clearRefresh() method which is invoked in the case that playAgain = 1, and it clears the computer and player decks entirely, shuffles the cards again witht the shuffles method, resets the faceup to a new 
 card within this shuffled method, and redeals cards to both decks.
 
-I resubmitted the asignment on 4/6/22 and did a few bug fixes and implemented a correct working computer crazy 8 function. I was unable to fix the random index error that occured sometimes after ending the game, even after adding 
+I did a few bug fixes and implemented a correct working computer crazy 8 function. I was unable to fix the random index error that occured sometimes after ending the game, even after adding 
 certain safeguards namely (if playAgain() =! 2) everywhere which was supposed to stop all print statements and actions if the player chose to end the game. As of now this is the only bug that I am aware of.
